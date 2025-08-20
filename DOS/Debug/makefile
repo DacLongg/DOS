@@ -9,6 +9,8 @@ RM := rm -rf
 
 # All of the sources participating in the build are defined here
 -include sources.mk
+-include modules/uart/subdir.mk
+-include modules/U_DriverUart/subdir.mk
 -include Middle_layer/mini_os/src/subdir.mk
 -include Middle_layer/mini_os/List/subdir.mk
 -include Drivers/STM32F1xx_HAL_Driver/Src/subdir.mk

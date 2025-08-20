@@ -13,5 +13,3 @@
 ../Middle_layer/mini_os/src/minnOs_task.c:223:6:DOS_StoreTask	7
 ../Middle_layer/mini_os/src/minnOs_task.c:257:6:task_sleep	2
 ../Middle_layer/mini_os/src/minnOs_task.c:275:6:MiniOS_TaskIdle	1
-../Middle_layer/mini_os/src/minnOs_task.c:283:6:SysTick_Handler	1
-../Middle_layer/mini_os/src/minnOs_task.c:298:6:PendSV_Handler	1

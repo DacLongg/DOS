@@ -28,4 +28,6 @@ Core/Startup \
 Drivers/STM32F1xx_HAL_Driver/Src \
 Middle_layer/mini_os/List \
 Middle_layer/mini_os/src \
+modules/U_DriverUart \
+modules/uart \
 

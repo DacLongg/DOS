@@ -24,6 +24,7 @@ Middle_layer/mini_os/src/mutex.o: ../Middle_layer/mini_os/src/mutex.c \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h \
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h \
  D:/GitWork/DOS/DOS/Middle_layer/mini_os/Irc/semaphore.h
 D:/GitWork/DOS/DOS/Middle_layer/mini_os/Irc/mutex.h:
 D:/GitWork/DOS/DOS/Middle_layer/mini_os/Irc/miniOs_task.h:
@@ -50,4 +51,5 @@ D:/GitWork/DOS/DOS/Middle_layer/mini_os/List/list.h:
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h:
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h:
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h:
 D:/GitWork/DOS/DOS/Middle_layer/mini_os/Irc/semaphore.h:

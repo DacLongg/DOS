@@ -280,29 +280,29 @@ void MiniOS_TaskIdle(void) {
     }
 }
 
-void SysTick_Handler(void)
-{
-  /* USER CODE BEGIN SysTick_IRQn 0 */
-	HAL_GetTick();
-  /* USER CODE END SysTick_IRQn 0 */
-//  HAL_IncTick();
-  /* USER CODE BEGIN SysTick_IRQn 1 */
-//	tasks[currentTask].stack = __get_PSP();
-//	__set_PSP(tasks[nextTask].stack);
-
-	Task_handle();
-
-  /* USER CODE END SysTick_IRQn 1 */
-}
-
-void PendSV_Handler(void)
-{
-  /* USER CODE BEGIN PendSV_IRQn 0 */
-
-  /* USER CODE END PendSV_IRQn 0 */
-  /* USER CODE BEGIN PendSV_IRQn 1 */
-	ContextSwitch(Task_temp, Task_running);
-
-
-  /* USER CODE END PendSV_IRQn 1 */
-}
+//void SysTick_Handler(void)
+//{
+//  /* USER CODE BEGIN SysTick_IRQn 0 */
+//	HAL_GetTick();
+//  /* USER CODE END SysTick_IRQn 0 */
+////  HAL_IncTick();
+//  /* USER CODE BEGIN SysTick_IRQn 1 */
+////	tasks[currentTask].stack = __get_PSP();
+////	__set_PSP(tasks[nextTask].stack);
+//
+//	Task_handle();
+//
+//  /* USER CODE END SysTick_IRQn 1 */
+//}
+//
+//void PendSV_Handler(void)
+//{
+//  /* USER CODE BEGIN PendSV_IRQn 0 */
+//
+//  /* USER CODE END PendSV_IRQn 0 */
+//  /* USER CODE BEGIN PendSV_IRQn 1 */
+//	ContextSwitch(Task_temp, Task_running);
+//
+//
+//  /* USER CODE END PendSV_IRQn 1 */
+//}
